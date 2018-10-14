@@ -1,0 +1,33 @@
+$font-stack: 'Cutive Mono', monospace;
+$font-color: #212121;
+$bg-color: #cdd1f2;
+$nav-bg: #333;
+$nav-font-color: #ededed;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $font-color;
+  background-color: $bg-color;
+  min-height: 100vh;
+}
+
+.header,
+.footer {
+  background-color: $nav-bg;
+  color: $nav-font-color;
+  width: 100vw;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.task {
+  border: 2px solid black;
+}
